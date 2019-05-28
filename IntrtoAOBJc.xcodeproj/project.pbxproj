@@ -14,6 +14,9 @@
 		6D06A663229D6D0F009B312E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D06A661229D6D0F009B312E /* LaunchScreen.storyboard */; };
 		6D06A666229D6D0F009B312E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D06A665229D6D0F009B312E /* main.m */; };
 		6D06A670229D6D0F009B312E /* IntrtoAOBJcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D06A66F229D6D0F009B312E /* IntrtoAOBJcTests.m */; };
+		6D06A67C229D70B4009B312E /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D06A67B229D70B4009B312E /* Printer.m */; };
+		6D06A682229D790A009B312E /* Audible.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D06A681229D790A009B312E /* Audible.m */; };
+		6D06A685229D79DD009B312E /* PrinterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D06A684229D79DD009B312E /* PrinterFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,13 @@
 		6D06A66B229D6D0F009B312E /* IntrtoAOBJcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntrtoAOBJcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D06A66F229D6D0F009B312E /* IntrtoAOBJcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntrtoAOBJcTests.m; sourceTree = "<group>"; };
 		6D06A671229D6D0F009B312E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D06A67A229D70B4009B312E /* Printer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
+		6D06A67B229D70B4009B312E /* Printer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
+		6D06A67D229D7438009B312E /* PrinterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrinterProtocol.h; sourceTree = "<group>"; };
+		6D06A680229D790A009B312E /* Audible.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Audible.h; sourceTree = "<group>"; };
+		6D06A681229D790A009B312E /* Audible.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Audible.m; sourceTree = "<group>"; };
+		6D06A683229D79DD009B312E /* PrinterFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrinterFactory.h; sourceTree = "<group>"; };
+		6D06A684229D79DD009B312E /* PrinterFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrinterFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +100,13 @@
 				6D06A661229D6D0F009B312E /* LaunchScreen.storyboard */,
 				6D06A664229D6D0F009B312E /* Info.plist */,
 				6D06A665229D6D0F009B312E /* main.m */,
+				6D06A67A229D70B4009B312E /* Printer.h */,
+				6D06A67B229D70B4009B312E /* Printer.m */,
+				6D06A67D229D7438009B312E /* PrinterProtocol.h */,
+				6D06A680229D790A009B312E /* Audible.h */,
+				6D06A681229D790A009B312E /* Audible.m */,
+				6D06A683229D79DD009B312E /* PrinterFactory.h */,
+				6D06A684229D79DD009B312E /* PrinterFactory.m */,
 			);
 			path = IntrtoAOBJc;
 			sourceTree = "<group>";
@@ -203,7 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D06A67C229D70B4009B312E /* Printer.m in Sources */,
 				6D06A65B229D6D0A009B312E /* ViewController.m in Sources */,
+				6D06A682229D790A009B312E /* Audible.m in Sources */,
+				6D06A685229D79DD009B312E /* PrinterFactory.m in Sources */,
 				6D06A666229D6D0F009B312E /* main.m in Sources */,
 				6D06A658229D6D0A009B312E /* AppDelegate.m in Sources */,
 			);
